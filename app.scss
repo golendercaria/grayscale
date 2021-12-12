@@ -1,0 +1,26 @@
+body{
+	img{
+		max-width: 500px;
+	}
+	.grayscale{
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+	}
+	.grayscale.hover:hover{
+		filter: grayscale(0);
+		-webkit-filter: grayscale(0);
+		-moz-filter: grayscale(0);
+		-o-filter: grayscale(0);
+		-ms-filter: grayscale(0);
+	}
+	.transition{
+		transition: filter 1s;
+		-moz-transition-property: filter 1s;
+		-o-transition-property: filter 1s;
+		-webkit-transition-property: filter 1s;
+		transition-property: filter 1s;
+	}
+}
